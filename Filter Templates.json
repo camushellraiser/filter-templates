@@ -1,0 +1,212 @@
+[
+  {
+    "name": "[Test] – DOCX – just highlighted text",
+    "description": "Imports only highlighted text in Word (DOCX) files.",
+    "recommended_usage": "For review projects where only marked segments need translation.",
+    "suggested_use": "QA or linguistic validation tasks where only reviewers’ highlights are required.",
+    "category": "Word"
+  },
+  {
+    "name": "[TEST] – PO variables",
+    "description": "Handles variables in .po files.",
+    "recommended_usage": "Validation of placeholders in software localization.",
+    "suggested_use": "Software projects where variables must remain intact and protected.",
+    "category": "PO"
+  },
+  {
+    "name": "Bilingual Excel",
+    "description": "Processes Excel files with bilingual columns (source & target).",
+    "recommended_usage": "Standard bilingual Excel translation.",
+    "suggested_use": "Vendor handoffs where source and target columns are aligned side by side.",
+    "category": "Excel"
+  },
+  {
+    "name": "Bilingual Excel – Websites",
+    "description": "Optimized for website exports.",
+    "recommended_usage": "Translating catalogs or web content in Excel format.",
+    "suggested_use": "Projects from CMS exports or website databases delivered in Excel.",
+    "category": "Excel"
+  },
+  {
+    "name": "DOCX – exclude properties",
+    "description": "Excludes document properties (metadata).",
+    "recommended_usage": "Ensures only visible content is translated.",
+    "suggested_use": "Client deliverables where metadata should remain untouched.",
+    "category": "Word"
+  },
+  {
+    "name": "EDD titles",
+    "description": "Custom filter for Employment Development Department titles.",
+    "recommended_usage": "Specific client projects.",
+    "suggested_use": "Dedicated filter for EDD project templates.",
+    "category": "Client-Specific"
+  },
+  {
+    "name": "EDD-20250117-1",
+    "description": "Variant of EDD filter with updated rules.",
+    "recommended_usage": "Client-specific usage.",
+    "suggested_use": "Use for newer versions of EDD deliverables when instructed by client.",
+    "category": "Client-Specific"
+  },
+  {
+    "name": "Excel Delimitated",
+    "description": "Processes Excel with delimiter-based values.",
+    "recommended_usage": "Converted CSV files.",
+    "suggested_use": "Files coming from database exports with delimiter structures.",
+    "category": "Excel"
+  },
+  {
+    "name": "Excel Footer",
+    "description": "Includes/excludes footers in Excel.",
+    "recommended_usage": "Translation of disclaimers/legal notes.",
+    "suggested_use": "Legal or compliance projects with important footnotes.",
+    "category": "Excel"
+  },
+  {
+    "name": "HTML entities",
+    "description": "Converts HTML entities into characters.",
+    "recommended_usage": "Web-related content.",
+    "suggested_use": "Websites where special characters must display as text.",
+    "category": "HTML"
+  },
+  {
+    "name": "HTML th variables",
+    "description": "Handles variables within <th> tags.",
+    "recommended_usage": "Web table translations.",
+    "suggested_use": "Tables or structured HTML pages with placeholders inside headers.",
+    "category": "HTML"
+  },
+  {
+    "name": "IDML & INDD – File and Image info",
+    "description": "InDesign filter excluding file and image data.",
+    "recommended_usage": "Ensures only visible layout text is translated.",
+    "suggested_use": "Desktop publishing workflows where only the text layer should be processed.",
+    "category": "InDesign"
+  },
+  {
+    "name": "JSON exclude underscore keys",
+    "description": "Ignores JSON keys starting with _.",
+    "recommended_usage": "Avoids translating technical fields.",
+    "suggested_use": "Mobile apps and websites where underscore keys are system values.",
+    "category": "JSON"
+  },
+  {
+    "name": "JSON Variables",
+    "description": "Handles placeholders and keys in JSON files.",
+    "recommended_usage": "Software localization.",
+    "suggested_use": "Protects JSON placeholders like {0}, %s in UI strings.",
+    "category": "JSON"
+  },
+  {
+    "name": "KP Medicare Provider Directories",
+    "description": "Custom filter for KP directories.",
+    "recommended_usage": "Client-specific.",
+    "suggested_use": "Kaiser Permanente projects with structured provider lists.",
+    "category": "Client-Specific"
+  },
+  {
+    "name": "Monolingual Excel – Aldo",
+    "description": "Processes monolingual Excel files.",
+    "recommended_usage": "Extraction + reimportation workflow.",
+    "suggested_use": "Internal workflow for converting monolingual Excel into translatable content.",
+    "category": "Excel"
+  },
+  {
+    "name": "PowerPoint with notes",
+    "description": "Translates slides and presenter notes.",
+    "recommended_usage": "Training or internal materials.",
+    "suggested_use": "Client or internal training decks where notes are crucial.",
+    "category": "PowerPoint"
+  },
+  {
+    "name": "PowerPoint without notes",
+    "description": "Translates only slides.",
+    "recommended_usage": "Client-facing presentations.",
+    "suggested_use": "Marketing or client decks without extra context.",
+    "category": "PowerPoint"
+  },
+  {
+    "name": "PPTX w/o Notes, Comments and Hidden Slides",
+    "description": "Excludes notes, comments, and hidden slides.",
+    "recommended_usage": "Final presentations.",
+    "suggested_use": "Final client deliverables where only visible slides matter.",
+    "category": "PowerPoint"
+  },
+  {
+    "name": "Pre-Translated PO Filter",
+    "description": "Skips segments already pre-translated in .po.",
+    "recommended_usage": "Software updates.",
+    "suggested_use": "Iterative software releases with pre-populated translations.",
+    "category": "PO"
+  },
+  {
+    "name": "Sitecore XML",
+    "description": "Optimized for Sitecore CMS XML files.",
+    "recommended_usage": "CMS content.",
+    "suggested_use": "Projects exported directly from Sitecore CMS.",
+    "category": "XML"
+  },
+  {
+    "name": "SRT Custom Files",
+    "description": "Custom handling of .srt subtitle files.",
+    "recommended_usage": "Multimedia projects.",
+    "suggested_use": "Subtitles for video content requiring non-standard formatting.",
+    "category": "Subtitles"
+  },
+  {
+    "name": "Tagalog text",
+    "description": "Custom template for Tagalog content.",
+    "recommended_usage": "Client-specific.",
+    "suggested_use": "Dedicated to Tagalog language projects requiring different segmentation rules.",
+    "category": "Client-Specific"
+  },
+  {
+    "name": "Tex files",
+    "description": "Handles LaTeX (.tex) documents.",
+    "recommended_usage": "Scientific/academic projects.",
+    "suggested_use": "Research documents or publications authored in LaTeX.",
+    "category": "LaTeX"
+  },
+  {
+    "name": "VTT",
+    "description": "Processes .vtt subtitle files.",
+    "recommended_usage": "Video/web captions.",
+    "suggested_use": "Online video captioning, YouTube or streaming platforms.",
+    "category": "Subtitles"
+  },
+  {
+    "name": "Word w/o Headers/Footers",
+    "description": "Excludes headers and footers from Word.",
+    "recommended_usage": "Focused translation of main content.",
+    "suggested_use": "Client projects where headers/footers are repetitive or irrelevant.",
+    "category": "Word"
+  },
+  {
+    "name": "XLIFF code",
+    "description": "Processes code inside XLIFF.",
+    "recommended_usage": "Software projects.",
+    "suggested_use": "Software projects where inline code needs to be handled carefully.",
+    "category": "XLIFF"
+  },
+  {
+    "name": "XLIFF variables",
+    "description": "Handles variables in XLIFF.",
+    "recommended_usage": "Software projects.",
+    "suggested_use": "Protects software placeholders inside XLIFF files.",
+    "category": "XLIFF"
+  },
+  {
+    "name": "XLSX – exclude red text",
+    "description": "Excludes red-colored text from Excel.",
+    "recommended_usage": "Files with marked non-translatable content.",
+    "suggested_use": "When clients mark non-translatable text in red color.",
+    "category": "Excel"
+  },
+  {
+    "name": "XML soundtransit",
+    "description": "Custom XML filter for SoundTransit.",
+    "recommended_usage": "Client-specific.",
+    "suggested_use": "SoundTransit client projects, structured XML data.",
+    "category": "XML"
+  }
+]
